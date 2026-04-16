@@ -1,0 +1,143 @@
+body{
+    background-color:#fbe7ee;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dc2e6b;
+    padding: 0 10px;
+    color: white;
+}
+header nav a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color:white;
+    border-radius: 35px;
+
+}
+header nav a:hover{
+    background-color: #e25083;
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    color: rgb(91, 89, 89);
+    padding: 13%;
+    display: flex;
+   flex-direction: column; 
+}
+
+main button{
+    background-color:#dc2e6b;
+    color: white;
+    border: 0;
+    border-radius: 35px;
+    padding: 7px;
+}
+main button:hover{
+    background-color:#e25083;
+}
+footer{
+    background-color: #dc2e6b;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color:#e25083;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: #dc2e6b;
+    color: white;
+}
+
+thead{
+    background-color:#dc2e6b;
+    color:rgb(255, 255, 255);
+}
+th , td{
+    padding: 17px;
+    text-align: center;
+    
+}
+form{
+    color: rgb(91, 89, 89);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #dc2e6b;    
+    display: flex;
+    flex-direction: column; 
+    width: 70%;
+  
+
+}
+label{
+    text-align: left;
+    color: #dc2e6b;
+}
+form h1{
+    color: #dc2e6b;
+}
+input, textarea, select {
+  width: 100%;              
+  padding: 5px;            
+  margin-bottom: 15px;      
+  border: 1px solid #dc2e6b;   
+  border-radius: 6px;       
+  font-size: 14px;          
+  box-sizing: border-box;   
+}
+select{
+    color: #dc2e6b;
+}
+
+@media screen and (max-width:768px){
+    main{
+        padding:25% 5%;
+    }
+    table{
+    width: 30%;
+}
+th , td{
+    padding: 5px;
+}
+form{
+   width: 30%;
+  
+}
+header nav a{
+   display: flex;
+   flex-direction: column;  
+}
+}
+@media screen and (max-width:400px){
+    header{
+        font-size: x-small;
+}
+    footer{
+        font-size: x-small;
+    }
+    main{
+        padding:45% 5%;
+    }
+    table{
+    width: 20%;
+    }
+    form {
+        padding: 40px;
+        width: 60%;
+    }
+
+}
