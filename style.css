@@ -2,8 +2,8 @@ body{
     background-color:#fbe7ee;
     margin: 0%;
     display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
 
